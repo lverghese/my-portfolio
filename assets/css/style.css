@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 40px;
     background-color: aqua;
@@ -46,8 +46,7 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 20px;
     float: right;
@@ -57,13 +56,12 @@ header nav ul li a {
     background-image: url("../images/hero-b.jpg");
     padding: 50px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
 
 }
 
 .hero-subtitle {
     width: 20%;
-    padding: 10px 20px;
     margin: 0 auto;
     background-color: aqua;
     float: right;
@@ -79,7 +77,11 @@ header nav ul li a {
 
 .my-intro p {
     flex-wrap: wrap;
-    text-align: right;
+    text-align: left;
+    font-size: large;
+    margin: 0px 45px;
+    padding-bottom: 15px;
+    padding-top: 20px;
 }
 
 .section-title {
@@ -89,6 +91,7 @@ header nav ul li a {
     text-align: right;
     margin: 0;
     padding-left: 100px;
+    padding-right: 20px;
 }
 
 .side-border {
@@ -98,6 +101,11 @@ header nav ul li a {
 .examples {
     display: flex;
     flex-wrap: wrap;
+}
+
+.step {
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .work {
@@ -116,8 +124,17 @@ header nav ul li a {
 
 .flex-row {
     display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
+
+.links {
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 .links nav {
     margin: 7px 0;
