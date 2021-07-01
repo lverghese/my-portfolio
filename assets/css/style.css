@@ -50,9 +50,20 @@ header nav ul li a {
     font-weight: lighter;
     font-weight: bold;
     font-size: 20px;
+    float: right;
 }
 
 .hero {
-    background-image: url();
+    background-image: url("../images/hero-bg.jpg");
+    padding: 50px;
 
+}
+
+.hero-subtitle {
+    width: 30%;
+    text-align: right;
+    margin: 0;
+    color: slategray;
+    background-color: aqua;
+    float: right;
 }
