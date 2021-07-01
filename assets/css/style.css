@@ -23,7 +23,7 @@ header h1 {
     background-color: aqua;
     color: slategray;
     margin: 0px;
-    padding: 20px 0px 20px 0px;
+    padding: 2px 5px 2px 30px;
     
 }
 
@@ -54,16 +54,88 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/hero-b.jpg");
     padding: 50px;
+    width: 100%;
+    background-size: contain;
 
 }
 
 .hero-subtitle {
-    width: 30%;
-    text-align: right;
-    margin: 0;
-    color: slategray;
+    width: 20%;
+    padding: 10px 20px;
+    margin: 0 auto;
     background-color: aqua;
     float: right;
+}
+
+.hero-subtitle h3 {
+    color: slategray;
+}
+
+.my-intro {
+    background-color: white;
+}
+
+.my-intro p {
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+.section-title {
+    font-size: 48px;
+    color: lightslategray;
+    border-right: 3px solid;
+    text-align: right;
+    margin: 0;
+    padding-left: 100px;
+}
+
+.side-border {
+    border-color: lightslategray;
+}
+
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work {
+    flex-wrap: wrap;
+}
+
+.work-main-img {
+    width: 400px;
+    height: auto;
+    position: relative;
+}
+
+.work-secondary-img {
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    display: flex;
+}
+
+
+.links nav {
+    margin: 7px 0;
+}
+
+.links nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    list-style: none;
+}
+
+.links nav ul li a {
+    padding: 10px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
 }
