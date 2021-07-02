@@ -25,7 +25,7 @@ header h1 {
     font-weight: bold;
     font-size: 40px;
     background-color: aqua;
-    color: slategray;
+    color: rgb(82, 84, 87);
     margin: 0px;
     padding: 2px 5px 2px 30px;
     
@@ -183,10 +183,18 @@ header nav ul li a {
 
 }
 
+.surf-report:hover {
+    opacity: 0.8;
+}
+
 .calculator {
     background-image: url("../images/calculator.jpg");
     min-height: 200px;
     background-size: cover;
+}
+
+.calculator:hover {
+    opacity: 0.8;
 }
 
 .led-wall {
@@ -196,16 +204,28 @@ header nav ul li a {
 
 }
 
+.led-wall:hover {
+    opacity: 0.8;
+}
+
 .puzzle {
     background-image: url("../images/pastel-puzzles.jpg");
     min-height: 200px;
     background-size: cover;
 }
 
+.puzzle:hover {
+    opacity: 0.8;
+}
+
 .run-buddy {
     background-image: url("../images/run-buddy.jpg");
     min-height: 200px;
     background-size: cover;
+}
+
+.run-buddy:hover {
+    opacity: 0.8;
 }
 
 
