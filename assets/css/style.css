@@ -111,7 +111,6 @@ header nav ul li a {
     border-right: 3px solid;
     text-align: right;
     margin: 0;
-    padding-left: 100px;
     padding-right: 20px;
 }
 
@@ -121,7 +120,7 @@ header nav ul li a {
 
 .examples {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: stretch;
     justify-content: space-between;
@@ -129,17 +128,22 @@ header nav ul li a {
     padding: 20px 0;
 }
 
+.examples p {
+    margin-left: 20px;
+    padding: 10px 10px;
+}
+
 .examples > div {
-    flex: 0 0 20%;
+    flex: 100%;
 
 }
 
-.example > h2 {
+.examples > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 50px;
     line-height: 1.1;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 
@@ -196,7 +200,7 @@ header nav ul li a {
 .links {
     padding: 15px 0px 15px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     flex-wrap: wrap;
 }
 
