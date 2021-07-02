@@ -9,6 +9,8 @@ body {
 }
 
 
+
+
 /* header styles start */
 header {
     padding: 15px 0px 15px 0px;
@@ -78,7 +80,16 @@ header nav ul li a {
 /* hero styles finish */
 
 
+.main-wrap {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* "About Me" styles start */
+
+
+
 .my-intro {
     background-color: white;
 }
@@ -111,7 +122,26 @@ header nav ul li a {
 .examples {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 25px 0;
+    padding: 20px 0;
 }
+
+.examples > div {
+    flex: 0 0 20%;
+
+}
+
+.example > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 50px;
+    line-height: 1.1;
+    font-size: 4vw;
+}
+
 
 .step {
     flex-wrap: wrap;
@@ -121,7 +151,22 @@ header nav ul li a {
 
 /* Work styles start */
 .work {
-    flex-wrap: wrap;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: flex-end;
+    flex-basis: calc(50% - 1em);
+    min-height: 150px;
+    max-height: 150px;
+    background-color: yellow;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+}
+
+.surf-report {
+    background-color: pink;
+    min-height: 400px;
+    flex-basis: 100%;
+
 }
 
 .work-main-img {
@@ -136,10 +181,14 @@ header nav ul li a {
 
 /* Work styles end */
 
-.flex-row {
-    display: flex;
+.flex-main {
+    /*display: flex;
+    align-items: flex-end;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 15px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Contact Me styles start */
