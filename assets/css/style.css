@@ -26,7 +26,7 @@ header h1 {
     font-size: 40px;
     background-color: aqua;
     color: rgb(82, 84, 87);
-    margin: 0px;
+    margin: 15px 0px;
     padding: 2px 5px 2px 30px;
     
 }
@@ -56,6 +56,11 @@ header nav ul li a {
     float: right;
     border-bottom: solid 2px aqua;
     margin: 15px;
+}
+
+header > nav > ul > li > a:hover {
+    background-color: aqua;
+    color:rgb(82, 84, 87);
 }
 
 
@@ -277,6 +282,11 @@ header nav ul li a {
     text-decoration: none;
 }
 
+.links > nav > ul > li > a:hover {
+    background-color: rgb(82, 84, 87);
+    color: white;
+}
+
 /* Contact Me styles end */
 
 /* media query sections*/
@@ -363,6 +373,10 @@ header nav ul li a {
 
     .examples {
         flex: 0 100%;
+    }
+
+    .examples a {
+        width: 80%;
     }
 
     .links {
