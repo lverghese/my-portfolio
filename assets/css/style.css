@@ -175,6 +175,7 @@ header nav ul li a {
     padding: 10px;
 }
 
+/* individual box features */
 .surf-report {
     background-image: url("../images/surf-report.jpg");
     min-height: 600px;
@@ -228,6 +229,7 @@ header nav ul li a {
     opacity: 0.8;
 }
 
+/* individal box features end */
 
 
 /* Work styles end */
