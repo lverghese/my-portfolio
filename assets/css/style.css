@@ -182,7 +182,7 @@ header > nav > ul > li > a:hover {
 
 /* individual box features */
 .surf-report {
-    background-image: url("../images/surf-report.jpg");
+    background-image: url("../images/project.png");
     min-height: 600px;
     flex-basis: 100%;
     background-size: cover;
